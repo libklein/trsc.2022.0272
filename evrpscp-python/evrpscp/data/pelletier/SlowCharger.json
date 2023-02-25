@@ -1,0 +1,55 @@
+{
+  "capacity": 100,
+  "id": 1,
+  "chargingFunction": {
+    "segments": [
+      {
+        "lowerBound": -Infinity,
+        "upperBound": 0,
+        "imageLowerBound": 0,
+        "imageUpperBound": 0,
+        "slope": 0
+      },
+      {
+        "lowerBound": 0,
+        "upperBound": 660,
+        "imageLowerBound": 0,
+        "imageUpperBound": 80,
+        "slope": 0.12121212121212122
+      },
+      {
+        "lowerBound": 660,
+        "upperBound": Infinity,
+        "imageLowerBound": 80,
+        "imageUpperBound": 80,
+        "slope": 0
+      }
+    ]
+  },
+  "inverseChargingFunction": {
+    "segments": [
+      {
+        "lowerBound": -Infinity,
+        "upperBound": 0,
+        "imageLowerBound": 0,
+        "imageUpperBound": 0,
+        "slope": 0
+      },
+      {
+        "lowerBound": 0,
+        "upperBound": 80,
+        "imageLowerBound": 0,
+        "imageUpperBound": 660,
+        "slope": 8.25
+      },
+      {
+        "lowerBound": 80,
+        "upperBound": Infinity,
+        "imageLowerBound": 660,
+        "imageUpperBound": 80,
+        "slope": 0
+      }
+    ]
+  },
+  "isBaseCharger": true
+}

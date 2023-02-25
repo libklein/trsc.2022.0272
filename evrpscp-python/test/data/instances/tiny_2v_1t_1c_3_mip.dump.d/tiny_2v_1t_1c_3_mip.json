@@ -1,0 +1,280 @@
+{
+  "periods": [
+    {
+      "begin": 0,
+      "end": 30,
+      "energyPrice": 0.93
+    },
+    {
+      "begin": 30,
+      "end": 60,
+      "energyPrice": 0.87
+    },
+    {
+      "begin": 60,
+      "end": 90,
+      "energyPrice": 0.73
+    },
+    {
+      "begin": 90,
+      "end": 120,
+      "energyPrice": 0.78
+    },
+    {
+      "begin": 120,
+      "end": 150,
+      "energyPrice": 0.72
+    },
+    {
+      "begin": 150,
+      "end": 180,
+      "energyPrice": 0.89
+    },
+    {
+      "begin": 180,
+      "end": 210,
+      "energyPrice": 0.97
+    },
+    {
+      "begin": 210,
+      "end": 240,
+      "energyPrice": 0.5
+    },
+    {
+      "begin": 240,
+      "end": 270,
+      "energyPrice": 0.67
+    },
+    {
+      "begin": 270,
+      "end": 300,
+      "energyPrice": 0.83
+    },
+    {
+      "begin": 300,
+      "end": 330,
+      "energyPrice": 0.99
+    },
+    {
+      "begin": 330,
+      "end": 360,
+      "energyPrice": 0.96
+    },
+    {
+      "begin": 360,
+      "end": 390,
+      "energyPrice": 0.57
+    },
+    {
+      "begin": 390,
+      "end": 420,
+      "energyPrice": 0.72
+    },
+    {
+      "begin": 420,
+      "end": 450,
+      "energyPrice": 0.81
+    },
+    {
+      "begin": 450,
+      "end": 480,
+      "energyPrice": 0.58
+    },
+    {
+      "begin": 480,
+      "end": 510,
+      "energyPrice": 0.54
+    },
+    {
+      "begin": 510,
+      "end": 540,
+      "energyPrice": 0.86
+    }
+  ],
+  "chargers": [
+    {
+      "capacity": 1,
+      "id": 0,
+      "chargingFunction": {
+        "segments": [
+          {
+            "lowerBound": "-Infinity",
+            "upperBound": 0,
+            "imageLowerBound": 0,
+            "imageUpperBound": 0,
+            "slope": 0
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 26.206893437787095,
+            "imageLowerBound": 0,
+            "imageUpperBound": 13.85840599434352,
+            "slope": 0.5288076599861857
+          },
+          {
+            "lowerBound": 26.206893437787095,
+            "upperBound": 49.789915595403215,
+            "imageLowerBound": 13.85840599434352,
+            "imageUpperBound": 22.113760256284955,
+            "slope": 0.3500549762777276
+          },
+          {
+            "lowerBound": 49.789915595403215,
+            "upperBound": 200.4132862292872,
+            "imageLowerBound": 22.113760256284955,
+            "imageUpperBound": 63.69154598524136,
+            "slope": 0.27603807798205743
+          },
+          {
+            "lowerBound": 200.4132862292872,
+            "upperBound": 300,
+            "imageLowerBound": 63.69154598524136,
+            "imageUpperBound": 80,
+            "slope": 0.16376134322804367
+          },
+          {
+            "lowerBound": 300,
+            "upperBound": "Infinity",
+            "imageLowerBound": 80,
+            "imageUpperBound": 80,
+            "slope": 0
+          }
+        ]
+      },
+      "inverseChargingFunction": {
+        "segments": [
+          {
+            "lowerBound": "-Infinity",
+            "upperBound": 0,
+            "imageLowerBound": 0,
+            "imageUpperBound": 0,
+            "slope": 0
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 13.85840599434352,
+            "imageLowerBound": 0,
+            "imageUpperBound": 26.206893437787095,
+            "slope": 1.8910467371560453
+          },
+          {
+            "lowerBound": 13.85840599434352,
+            "upperBound": 22.113760256284955,
+            "imageLowerBound": 26.206893437787095,
+            "imageUpperBound": 49.789915595403215,
+            "slope": 2.85669414168424
+          },
+          {
+            "lowerBound": 22.113760256284955,
+            "upperBound": 63.69154598524136,
+            "imageLowerBound": 49.789915595403215,
+            "imageUpperBound": 200.4132862292872,
+            "slope": 3.6226886062617796
+          },
+          {
+            "lowerBound": 63.69154598524136,
+            "upperBound": 80,
+            "imageLowerBound": 200.4132862292872,
+            "imageUpperBound": 300,
+            "slope": 6.1064472255058595
+          },
+          {
+            "lowerBound": 80,
+            "upperBound": "Infinity",
+            "imageLowerBound": 300,
+            "imageUpperBound": 80,
+            "slope": 0
+          }
+        ]
+      },
+      "isBaseCharger": false
+    }
+  ],
+  "param": {
+    "fleetSize": 2,
+    "battery": {
+      "capacity": 80,
+      "initial": 0,
+      "maximum": 80,
+      "minimum": 0,
+      "wearDensityFunction": {
+        "segments": [
+          {
+            "lowerBound": "-Infinity",
+            "upperBound": 0,
+            "imageLowerBound": 0,
+            "imageUpperBound": 0,
+            "slope": 0
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 28.14019663395802,
+            "imageLowerBound": 0,
+            "imageUpperBound": 8.411694412028991,
+            "slope": 0.29892095358986326
+          },
+          {
+            "lowerBound": 28.14019663395802,
+            "upperBound": 46.96407137578653,
+            "imageLowerBound": 8.411694412028991,
+            "imageUpperBound": 14.209466638039869,
+            "slope": 0.30800099902533107
+          },
+          {
+            "lowerBound": 46.96407137578653,
+            "upperBound": 76.78755055339033,
+            "imageLowerBound": 14.209466638039869,
+            "imageUpperBound": 26.498645549954013,
+            "slope": 0.41206389230210305
+          },
+          {
+            "lowerBound": 76.78755055339033,
+            "upperBound": 80,
+            "imageLowerBound": 26.498645549954013,
+            "imageUpperBound": 28.365026503801186,
+            "slope": 0.5809837586135081
+          },
+          {
+            "lowerBound": 80,
+            "upperBound": "Infinity",
+            "imageLowerBound": 28.365026503801186,
+            "imageUpperBound": 28.365026503801186,
+            "slope": 0
+          }
+        ]
+      }
+    },
+    "max_charges_between_tours": 100
+  },
+  "tourPlans": {
+    "schedules": [
+      {
+        "tours": [
+          {
+            "id": 0,
+            "duration_time": 150,
+            "earliest_departure_time": 300,
+            "latest_departure_time": 390,
+            "consumption": 24.59460971630369,
+            "cost": 0
+          }
+        ],
+        "vehicleID": 0
+      },
+      {
+        "tours": [
+          {
+            "id": 2,
+            "duration_time": 180,
+            "earliest_departure_time": 300,
+            "latest_departure_time": 330,
+            "consumption": 56.31856469953605,
+            "cost": 0
+          }
+        ],
+        "vehicleID": 1
+      }
+    ],
+    "fleetSize": 2
+  }
+}

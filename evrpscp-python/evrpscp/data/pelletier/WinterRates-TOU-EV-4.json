@@ -1,0 +1,28 @@
+[
+    {
+        "begin": 0.0,
+        "end": 480.0,
+        "energyPrice": 0.06
+    },
+    {
+        "begin": 480.0,
+        "end": 720.0,
+        "energyPrice": 0.09
+    },
+    {
+        "begin": 720.0,
+        "end": 1080.0,
+        "energyPrice": 0.11
+    },
+    {
+        "begin": 1080.0,
+        "end": 1380.0,
+        "energyPrice": 0.09
+    },
+    {
+        "begin": 1380.0,
+        "end": 1440.0,
+        "energyPrice": 0.06
+    }
+
+]

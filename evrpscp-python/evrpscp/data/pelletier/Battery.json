@@ -1,0 +1,52 @@
+{
+    "capacity": 80,
+    "initial": 71.701578,
+    "maximum": 80.0,
+    "minimum": 0,
+    "wearDensityFunction": {
+        "segments": [
+            {
+                "imageLowerBound": 0,
+                "imageUpperBound": 0,
+                "lowerBound": -1.7976931348623157e+308,
+                "slope": 0,
+                "upperBound": 0
+            },
+            {
+                "imageLowerBound": 0,
+                "imageUpperBound": 9.6,
+                "lowerBound": 0,
+                "slope": 0.48,
+                "upperBound": 20
+            },
+            {
+                "imageLowerBound": 9.6,
+                "imageUpperBound": 20,
+                "lowerBound": 20,
+                "slope": 0.52,
+                "upperBound": 40
+            },
+            {
+                "imageLowerBound": 20,
+                "imageUpperBound": 31.6,
+                "lowerBound": 40,
+                "slope": 0.58,
+                "upperBound": 60
+            },
+            {
+                "imageLowerBound": 31.6,
+                "imageUpperBound": 47.4,
+                "lowerBound": 60,
+                "slope": 0.79,
+                "upperBound": 80
+            },
+            {
+                "imageLowerBound": 47.4,
+                "imageUpperBound": 47.4,
+                "lowerBound": 80,
+                "slope": 0,
+                "upperBound": 1.7976931348623157e+308
+            }
+        ]
+    }
+}

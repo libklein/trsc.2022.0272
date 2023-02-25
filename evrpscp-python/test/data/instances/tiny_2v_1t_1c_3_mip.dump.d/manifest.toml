@@ -1,0 +1,5 @@
+[instance]
+name = "tiny_2v_1t_1c_3_mip"
+
+[instance.representations.json]
+filename = "tiny_2v_1t_1c_3_mip.json"

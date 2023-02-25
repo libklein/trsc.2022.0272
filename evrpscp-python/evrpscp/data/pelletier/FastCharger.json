@@ -1,0 +1,83 @@
+{
+  "capacity": 1,
+  "id": 0,
+  "chargingFunction": {
+    "segments": [
+      {
+        "lowerBound": -Infinity,
+        "upperBound": 0,
+        "imageLowerBound": 0,
+        "imageUpperBound": 0,
+        "slope": 0
+      },
+      {
+        "lowerBound": 0,
+        "upperBound": 106.97,
+        "imageLowerBound": 0,
+        "imageUpperBound": 62.0426,
+        "slope": 0.58
+      },
+      {
+        "lowerBound": 106.97,
+        "upperBound": 136.97,
+        "imageLowerBound": 62.0426,
+        "imageUpperBound": 75.5426,
+        "slope": 0.45
+      },
+      {
+        "lowerBound": 136.97,
+        "upperBound": 177.49181818181825,
+        "imageLowerBound": 75.5426,
+        "imageUpperBound": 80,
+        "slope": 0.10999999999999999
+      },
+      {
+        "lowerBound": 177.49181818181825,
+        "upperBound": Infinity,
+        "imageLowerBound": 80,
+        "imageUpperBound": 80,
+        "slope": 0
+      }
+    ]
+  },
+  "inverseChargingFunction": {
+    "segments": [
+      {
+        "lowerBound": -Infinity,
+        "upperBound": 0,
+        "imageLowerBound": 0,
+        "imageUpperBound": 0,
+        "slope": 0
+      },
+      {
+        "lowerBound": 0,
+        "upperBound": 62.0426,
+        "imageLowerBound": 0,
+        "imageUpperBound": 106.97,
+        "slope": 1.7241379310344829
+      },
+      {
+        "lowerBound": 62.0426,
+        "upperBound": 75.5426,
+        "imageLowerBound": 106.97,
+        "imageUpperBound": 136.97,
+        "slope": 2.2222222222222223
+      },
+      {
+        "lowerBound": 75.5426,
+        "upperBound": 80,
+        "imageLowerBound": 136.97,
+        "imageUpperBound": 177.49181818181825,
+        "slope": 9.090909090909092
+      },
+      {
+        "lowerBound": 80,
+        "upperBound": Infinity,
+        "imageLowerBound": 177.49181818181825,
+        "imageUpperBound": 80,
+        "slope": 0
+      }
+    ]
+  },
+  "isBaseCharger": false
+}

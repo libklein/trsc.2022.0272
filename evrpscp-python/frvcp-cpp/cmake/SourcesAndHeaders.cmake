@@ -1,0 +1,36 @@
+set(sources
+        src/solver.cpp
+        src/label.cpp
+        src/util/label_container.cpp
+        src/util/node_queue.cpp
+        src/cost_profile.cpp
+        src/time_expanded_network.cpp
+        src/models/charger.cpp
+        src/models/tour.cpp
+        src/models/pwl.cpp
+        src/models/instance.cpp
+        src/models/battery.cpp
+        )
+
+set(exe_sources
+        src/main.cpp
+        ${sources}
+        )
+
+set(headers
+        include/frvcp/solver.hpp
+        include/frvcp/time_expanded_network.hpp
+        include/frvcp/label.hpp
+        include/frvcp/cost_profile.hpp
+        include/frvcp/util/heap.hpp
+        include/frvcp/util/allocator.hpp
+        include/frvcp/util/timer.hpp
+        include/frvcp/util/floats.hpp
+        include/frvcp/util/algorithms.hpp
+        include/frvcp/models/charger.hpp
+        include/frvcp/models/tour.hpp
+        include/frvcp/models/pwl.hpp
+        include/frvcp/models/pwl_util.hpp
+        include/frvcp/models/instance.hpp
+        include/frvcp/models/battery.hpp
+        )

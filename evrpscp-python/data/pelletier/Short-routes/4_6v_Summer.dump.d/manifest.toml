@@ -1,0 +1,6 @@
+[instance]
+name = "4_6v_Summer"
+
+[instance.representations.pelletier]
+filename = "instance/4_6v.txt"
+param_path = "instance/Parameters"
