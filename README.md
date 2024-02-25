@@ -12,6 +12,7 @@
   in [Pelletier et al. (2018)](https://www.sciencedirect.com/science/article/abs/pii/S0191261517308871). Not directly
   related.
 * `scripts`: Contains instance generation scripts. The parameters can be found in the paper.
+* `examples`: Contains example instances, instance generation scripts, and run configurations.
 * `data`: Contains data from [Pelletier et al. (2018)](https://www.sciencedirect.com/science/article/abs/pii/S0191261517308871). Useful for testing.
 
 ## Requirements
@@ -80,7 +81,7 @@ and `examples/instance-generation` directories for examples.
 
 ### Output
 
-The solvers output a JSON file with the following structure:
+The solvers output a `JSON` file with the following structure:
 
 ```json
 

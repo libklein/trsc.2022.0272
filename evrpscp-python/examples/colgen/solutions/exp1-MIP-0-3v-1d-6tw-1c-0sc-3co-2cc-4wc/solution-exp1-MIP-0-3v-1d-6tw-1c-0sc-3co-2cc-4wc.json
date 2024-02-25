@@ -1,0 +1,1 @@
+{"SolutionInfo": {"Runtime": 3.1646553989994572, "ObjVal": 421.0707144424861, "ObjBound": 421.0707144424861, "RootLB": 421.0707144424861, "MIPGap": 0.0, "IterCount": 1, "NodeCount": 1}, "IterPerNode": 1.0, "ScheduleDetails": {"Cost": 421.07071444248726, "TourCost": 0, "EnergyCost": 266.18475381838084, "DegradationCost": 154.88596062410633, "TotalCharge": 396.0}}

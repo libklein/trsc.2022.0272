@@ -1,0 +1,77 @@
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  standard:
+    format: "[%(asctime)s][%(module)s][%(levelname)s]: %(message)s"
+    datefmt: "%d.%m.%Y %H:%M:%S"
+  error:
+    format: "[%(asctime)s][%(levelname)s]: <PID %(process)d:%(processName)s> %(name)s.%(funcName)s(): %(message)s"
+    datefmt: "%d.%m.%Y %H:%M:%S"
+  brief:
+    format: "[%(asctime)s][%(levelname)s]: %(message)s"
+    datefmt: "%d.%m.%Y %H:%M:%S"
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: standard
+    stream: ext://sys.stdout
+  error_console:
+    class: logging.StreamHandler
+    level: WARNING
+    formatter: error
+    stream: ext://sys.stderr
+  heuristic:
+    class: logging.FileHandler
+    formatter: standard
+    filename: 'logs/heuristic.log'
+    mode: 'w'
+  branching:
+    class: logging.FileHandler
+    formatter: standard
+    filename: 'logs/branching.log'
+    mode: 'w'
+  node_solver:
+    class: logging.FileHandler
+    formatter: standard
+    filename: 'logs/node_solver.log'
+    mode: 'w'
+  solver:
+    class: logging.FileHandler
+    formatter: standard
+    filename: 'logs/solver.log'
+    mode: 'w'
+  subproblem:
+    class: logging.FileHandler
+    formatter: standard
+    filename: 'logs/subproblem.log'
+    mode: 'w'
+
+root:
+  level: INFO
+  handlers: [console, error_console]
+
+loggers:
+  column_generation:
+    level: WARNING
+  column_generation.solver:
+    level: INFO
+    handlers: [solver]
+  column_generation.node_solver:
+    level: INFO
+    handlers: [node_solver, error_console]
+    propagate: False
+  column_generation.heuristics:
+    level: INFO
+    handlers: [heuristic, error_console]
+    propagate: False
+  column_generation.branching:
+    level: INFO
+    handlers: [branching, error_console]
+    propagate: False
+  column_generation.subproblem:
+    level: INFO
+    handlers: [subproblem, error_console]
+    propagate: False

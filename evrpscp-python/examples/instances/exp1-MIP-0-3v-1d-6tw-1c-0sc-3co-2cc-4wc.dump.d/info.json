@@ -1,0 +1,1 @@
+{"seed": "0", "run": 0, "fleet_size": 3, "number_of_days": 1, "time_window_length": 6, "average_tour_length": 11, "number_of_charger_types": 1, "charger_complexity": 3, "base_charger_capacity": 2, "wdf_complexity": 4, "consumption": 0.55, "nice_name": "", "infix": "MIP", "scale_charger_capacity": false}
